@@ -1,9 +1,12 @@
 package com.sgda.pqrd.decision;
 
 import java.lang.Number;
+import com.sgda.pqrd.decision.model.TipoSolicitud;
 
 rule "TipoSolicitudRule"
+	@freeze_conditions(true)
 	dialect "mvel"
+	no-loop true
 	when
 	then
 end
