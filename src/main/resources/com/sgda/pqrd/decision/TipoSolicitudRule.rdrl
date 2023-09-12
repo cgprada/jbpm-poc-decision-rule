@@ -2,7 +2,7 @@ package com.sgda.pqrd.decision;
 
 import java.lang.Number;
 
-rule "TipoSolicitud"
+rule "TipoSolicitudRule"
 	dialect "mvel"
 	when
 	then
