@@ -6,12 +6,35 @@ package com.sgda.pqrd.decision.model;
 
 public class TipoSolicitud implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TipoSolicitud() {
-    }
+	@org.kie.api.definition.type.Label(value = "Tipo Solicitud")
+	private java.lang.String tipoSolicitud;
+	@org.kie.api.definition.type.Label(value = "Grupo Atención")
+	private java.lang.String grupo;
 
+	public TipoSolicitud() {
+	}
 
+	public java.lang.String getTipoSolicitud() {
+		return this.tipoSolicitud;
+	}
 
+	public void setTipoSolicitud(java.lang.String tipoSolicitud) {
+		this.tipoSolicitud = tipoSolicitud;
+	}
+
+	public java.lang.String getGrupo() {
+		return this.grupo;
+	}
+
+	public void setGrupo(java.lang.String grupo) {
+		this.grupo = grupo;
+	}
+
+	public TipoSolicitud(java.lang.String tipoSolicitud, java.lang.String grupo) {
+		this.tipoSolicitud = tipoSolicitud;
+		this.grupo = grupo;
+	}
 
 }
