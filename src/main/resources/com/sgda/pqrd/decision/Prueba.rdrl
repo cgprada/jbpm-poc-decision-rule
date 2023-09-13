@@ -6,5 +6,7 @@ import com.sgda.pqrd.decision.model.TipoSolicitud;
 rule "Prueba"
 	dialect "mvel"
 	when
+		tipoSol : TipoSolicitud( tipoSolicitud == "Actualización de datos en la afiliación" || tipoSolicitud == "Modificaciones Pólizas de Vida" || tipoSolicitud == "Novedades de Afiliación" || tipoSolicitud == "Renovaciones Pólizas de Vida" )
 	then
+		tipoSol.setGrupo( "Gerencia de Afiliación y Novedades" );
 end
