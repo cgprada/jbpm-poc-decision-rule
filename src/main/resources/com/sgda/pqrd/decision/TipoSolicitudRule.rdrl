@@ -3,166 +3,166 @@ package com.sgda.pqrd.decision;
 import com.sgda.pqrd.decision.model.TipoSolicitud;
 
 rule "TipoSolicitudGrupoRule"
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Actualización de datos en la afiliación")
-then
-  $tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Actualización de datos en la afiliación")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Aplicaciones móviles")
-then
-  $tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Aplicaciones móviles")
+	then
+  		$tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas Medicina Laboral radicado SAL-XXXXX")
-then
-  $tipoSol.setGrupo("Grupo de Notificaciones EPS al trámite Medicina Laboral");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas Medicina Laboral radicado SAL-XXXXX")
+	then
+  		$tipoSol.setGrupo("Grupo de Notificaciones EPS al trámite Medicina Laboral");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas para Investigación de Accidente de Trabajo")
-then
-  $tipoSol.setGrupo("Vicepresidencia de PyP");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas para Investigación de Accidente de Trabajo")
+	then
+  		$tipoSol.setGrupo("Vicepresidencia de PyP");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Asesoría en SGSST")
-then
-  $tipoSol.setGrupo("Vicepresidencia de PyP");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Asesoría en SGSST")
+	then
+  		$tipoSol.setGrupo("Vicepresidencia de PyP");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Asistente Virtual")
-then
-  $tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Asistente Virtual")
+	then
+  		$tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Autorización médica")
-then
-  $tipoSol.setGrupo("PQRD Médica");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Autorización médica")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Centro de Atención telefónica (Call center/Contact center)")
-then
-  $tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Centro de Atención telefónica (Call center/Contact center)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Controversia")
-then
-  $tipoSol.setGrupo("Notificaciones EPS al trámite Medicina Laboral");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Controversia")
+	then
+ 		$tipoSol.setGrupo("Notificaciones EPS al trámite Medicina Laboral");
+ 		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Estado de Cuenta Aportes ARL")
-then
-  $tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
-  update($tipoSol);
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Estado de Cuenta Aportes ARL")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Aportes ARL")
-then
-  $tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
-  update($tipoSol);
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Aportes ARL")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Facturación y cobro Pólizas de Vida")
-then
-  $tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Facturación y cobro Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Internet (página web, portal transaccional)")
-then
-  $tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Internet (página web, portal transaccional)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Modificaciones Pólizas de Vida")
-then
-  $tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
-  update($tipoSol);  
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Modificaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol);  
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Novedades de Afiliación")
-then
-  $tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
-  update($tipoSol);  
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Novedades de Afiliación")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol);  
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Oficinas")
-then
-  $tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Oficinas")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Otra")
-then
-  $tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Otra")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Reembolso")
-then
-  $tipoSol.setGrupo("PQRD Indemnizaciones");
-  update($tipoSol);   
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Reembolso")
+	then
+  		$tipoSol.setGrupo("PQRD Indemnizaciones");
+  		update($tipoSol);   
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Incapacidad")
-then
-  $tipoSol.setGrupo("PQRD Indemnizaciones");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Incapacidad")
+	then
+  		$tipoSol.setGrupo("PQRD Indemnizaciones");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Pensiones")
-then
-  $tipoSol.setGrupo("Administración de Pensiones");
-  update($tipoSol);  
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pensiones")
+	then
+  		$tipoSol.setGrupo("Administración de Pensiones");
+  		update($tipoSol);  
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Reclamaciones Pólizas de Vida")
-then
-  $tipoSol.setGrupo("Reclamaciones de Vida");
-  update($tipoSol);  
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Reclamaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Reclamaciones de Vida");
+  		update($tipoSol);  
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Renovaciones Pólizas de Vida")
-then
-  $tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Renovaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Sistema de audio respuesta (IVR)")
-then
-  $tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Sistema de audio respuesta (IVR)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
 
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Solicitud de medicamentos")
-then
-  $tipoSol.setGrupo("PQRD Médica");
-  update($tipoSol);
-
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Suscripción de Pólizas de Vida")
-then
-  $tipoSol.setGrupo("Gerencia Técnica de Vida");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Solicitud de medicamentos")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol);
+	
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Suscripción de Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia Técnica de Vida");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
-then
-  $tipoSol.setGrupo("PQRD Médica");
-  update($tipoSol);
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol);
   
-when
-  $tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
-then
-  $tipoSol.setGrupo("PQRD Médica");
-  update($tipoSol); 
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol); 
 
 end
