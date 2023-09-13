@@ -3,7 +3,7 @@ package com.sgda.pqrd.decision;
 import com.sgda.pqrd.decision.model.TipoSolicitud;
 
 rule "TipoSolicitudGrupoRule1"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Actualización de datos en la afiliación")
 	then
@@ -12,16 +12,16 @@ rule "TipoSolicitudGrupoRule1"
 end
 
 rule "TipoSolicitudGrupoRule2"
-	dialect "mvel" 
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Aplicaciones móviles")
 	then
-  		$tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
   		update($tipoSol);
 end
  
 rule "TipoSolicitudGrupoRule3"
-	dialect "mvel"  
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas Medicina Laboral radicado SAL-XXXXX")
 	then
@@ -30,7 +30,7 @@ rule "TipoSolicitudGrupoRule3"
 end
 
 rule "TipoSolicitudGrupoRule4"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas para Investigación de Accidente de Trabajo")
 	then
@@ -39,7 +39,7 @@ rule "TipoSolicitudGrupoRule4"
 end
 
 rule "TipoSolicitudGrupoRule5"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Asesoría en SGSST")
 	then
@@ -48,7 +48,7 @@ rule "TipoSolicitudGrupoRule5"
 end
 
 rule "TipoSolicitudGrupoRule6"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Asistente Virtual")
 	then
@@ -57,7 +57,7 @@ rule "TipoSolicitudGrupoRule6"
 end
 
 rule "TipoSolicitudGrupoRule7"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Autorización médica")
 	then
@@ -66,7 +66,7 @@ rule "TipoSolicitudGrupoRule7"
 end
 
 rule "TipoSolicitudGrupoRule8"
-	dialect "mvel"
+no-loop
 	when
  		$tipoSol: TipoSolicitud(tipoSolicitud == "Centro de Atención telefónica (Call center/Contact center)")
 	then
@@ -75,7 +75,7 @@ rule "TipoSolicitudGrupoRule8"
 end
 
 rule "TipoSolicitudGrupoRule9"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Controversia")
 	then
@@ -84,7 +84,7 @@ rule "TipoSolicitudGrupoRule9"
 end
 
 rule "TipoSolicitudGrupoRule10"
-	dialect "mvel"
+no-loop
 	when
  		$tipoSol: TipoSolicitud(tipoSolicitud == "Estado de Cuenta Aportes ARL")
 	then
@@ -93,7 +93,7 @@ rule "TipoSolicitudGrupoRule10"
 end
 
 rule "TipoSolicitudGrupoRule11"
-	dialect "mvel"
+no-loop
 	when
  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Aportes ARL")
 	then
@@ -102,7 +102,7 @@ rule "TipoSolicitudGrupoRule11"
 end
 
 rule "TipoSolicitudGrupoRule12"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Facturación y cobro Pólizas de Vida")
 	then
@@ -111,7 +111,7 @@ rule "TipoSolicitudGrupoRule12"
 end
 
 rule "TipoSolicitudGrupoRule13"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Internet (página web, portal transaccional)")
 	then
@@ -120,7 +120,7 @@ rule "TipoSolicitudGrupoRule13"
 end
 
 rule "TipoSolicitudGrupoRule14"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Modificaciones Pólizas de Vida")
 	then
@@ -129,7 +129,7 @@ rule "TipoSolicitudGrupoRule14"
 end
 
 rule "TipoSolicitudGrupoRule15"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Novedades de Afiliación")
 	then
@@ -138,7 +138,7 @@ rule "TipoSolicitudGrupoRule15"
 end
 
 rule "TipoSolicitudGrupoRule16"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Oficinas")
 	then
@@ -147,7 +147,7 @@ rule "TipoSolicitudGrupoRule16"
 end
 
 rule "TipoSolicitudGrupoRule17"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Otra")
 	then
@@ -156,7 +156,7 @@ rule "TipoSolicitudGrupoRule17"
 end
 
 rule "TipoSolicitudGrupoRule18"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Reembolso")
 	then
@@ -165,7 +165,7 @@ rule "TipoSolicitudGrupoRule18"
 end
 
 rule "TipoSolicitudGrupoRule19"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Incapacidad")
 	then
@@ -174,7 +174,7 @@ rule "TipoSolicitudGrupoRule19"
 end
 
 rule "TipoSolicitudGrupoRule20"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Pensiones")
 	then
@@ -184,7 +184,7 @@ end
 
 
 rule "TipoSolicitudGrupoRule21"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Reclamaciones Pólizas de Vida")
 	then
@@ -193,7 +193,7 @@ rule "TipoSolicitudGrupoRule21"
 end
 
 rule "TipoSolicitudGrupoRule22"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Renovaciones Pólizas de Vida")
 	then
@@ -202,7 +202,7 @@ rule "TipoSolicitudGrupoRule22"
 end
 
 rule "TipoSolicitudGrupoRule23"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Sistema de audio respuesta (IVR)")
 	then
@@ -211,7 +211,7 @@ rule "TipoSolicitudGrupoRule23"
 end
 
 rule "TipoSolicitudGrupoRule24"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Solicitud de medicamentos")
 	then
@@ -220,7 +220,7 @@ rule "TipoSolicitudGrupoRule24"
 end
 
 rule "TipoSolicitudGrupoRule25"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Suscripción de Pólizas de Vida")
 	then
@@ -229,7 +229,7 @@ rule "TipoSolicitudGrupoRule25"
 end
 
 rule "TipoSolicitudGrupoRule26"
-	dialect "mvel"
+no-loop
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
 	then
