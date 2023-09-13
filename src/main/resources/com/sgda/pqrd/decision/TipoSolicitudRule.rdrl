@@ -28,3 +28,211 @@ rule "TipoSolicitudGrupoRule3"
   		$tipoSol.setGrupo("Grupo de Notificaciones EPS al trámite Medicina Laboral");
   		update($tipoSol);
 end
+
+rule "TipoSolicitudGrupoRule4"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas para Investigación de Accidente de Trabajo")
+	then
+  		$tipoSol.setGrupo("Vicepresidencia de PyP");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule5"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Asesoría en SGSST")
+	then
+  		$tipoSol.setGrupo("Vicepresidencia de PyP");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule6"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Asistente Virtual")
+	then
+  		$tipoSol.setGrupo("Grupo de Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule7"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Autorización médica")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule8"
+	dialect "mvel"
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Centro de Atención telefónica (Call center/Contact center)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule9"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Controversia")
+	then
+ 		$tipoSol.setGrupo("Notificaciones EPS al trámite Medicina Laboral");
+ 		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule10"
+	dialect "mvel"
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Estado de Cuenta Aportes ARL")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule11"
+	dialect "mvel"
+	when
+ 		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Aportes ARL")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule12"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Facturación y cobro Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Recaudo y Cartera");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule13"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Internet (página web, portal transaccional)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule14"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Modificaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule15"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Novedades de Afiliación")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule16"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Oficinas")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule17"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Otra")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule18"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Reembolso")
+	then
+  		$tipoSol.setGrupo("PQRD Indemnizaciones");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule19"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pago de Incapacidad")
+	then
+  		$tipoSol.setGrupo("PQRD Indemnizaciones");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule20"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Pensiones")
+	then
+  		$tipoSol.setGrupo("Administración de Pensiones");
+  		update($tipoSol); 
+end
+
+
+rule "TipoSolicitudGrupoRule21"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Reclamaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Reclamaciones de Vida");
+  		update($tipoSol);  
+end
+
+rule "TipoSolicitudGrupoRule22"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Renovaciones Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia de Afiliación y Novedades");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule23"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Sistema de audio respuesta (IVR)")
+	then
+  		$tipoSol.setGrupo("Atención Integral y de Servicio al Ciudadano");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule24"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Solicitud de medicamentos")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol); 
+end
+
+rule "TipoSolicitudGrupoRule25"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Suscripción de Pólizas de Vida")
+	then
+  		$tipoSol.setGrupo("Gerencia Técnica de Vida");
+  		update($tipoSol);
+end
+
+rule "TipoSolicitudGrupoRule26"
+	dialect "mvel"
+	when
+  		$tipoSol: TipoSolicitud(tipoSolicitud == "Traslado para prestación de servicio")
+	then
+  		$tipoSol.setGrupo("PQRD Médica");
+  		update($tipoSol);
+end
