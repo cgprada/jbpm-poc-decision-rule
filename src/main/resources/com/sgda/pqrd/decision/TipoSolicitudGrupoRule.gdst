@@ -175,7 +175,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Grupo de Notificaciones EPS al trámite Medicina Laboral</valueString>
+        <valueString>Notificaciones EPS al trámite Medicina Laboral</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
