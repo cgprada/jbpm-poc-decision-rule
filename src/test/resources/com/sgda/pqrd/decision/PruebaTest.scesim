@@ -53,7 +53,7 @@
           <factAlias>TipoSolicitud</factAlias>
           <expressionAlias>tipoSolicitud</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>467.0</columnWidth>
+          <columnWidth>241.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>TipoSolicitud</factAlias>
           <expressionAlias>grupo</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>467.0</columnWidth>
+          <columnWidth>241.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
