@@ -2,7 +2,7 @@ package com.sgda.pqrd.decision;
 
 import com.sgda.pqrd.decision.model.TipoSolicitud;
 
-rule "TipoSolicitudGrupoRule"
+rule "TipoSolicitudGrupoRule1"
 	dialect "mvel"
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Actualización de datos en la afiliación")
@@ -11,7 +11,7 @@ rule "TipoSolicitudGrupoRule"
   		update($tipoSol);
 end
 
-rule "TipoSolicitudGrupoRule"
+rule "TipoSolicitudGrupoRule2"
 	dialect "mvel" 
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Aplicaciones móviles")
@@ -20,7 +20,7 @@ rule "TipoSolicitudGrupoRule"
   		update($tipoSol);
 end
  
-rule "TipoSolicitudGrupoRule"
+rule "TipoSolicitudGrupoRule3"
 	dialect "mvel"  
 	when
   		$tipoSol: TipoSolicitud(tipoSolicitud == "Aporte de Pruebas Medicina Laboral radicado SAL-XXXXX")
