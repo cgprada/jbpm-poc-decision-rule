@@ -1,6 +1,7 @@
 package com.sgda.pqrd.decision;
 
 import java.lang.Number;
+import com.sgda.pqrd.decision.model.TipoSolicitud;
 
 rule "Prueba"
 	dialect "mvel"
