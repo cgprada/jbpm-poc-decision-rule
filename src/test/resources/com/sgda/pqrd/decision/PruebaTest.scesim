@@ -53,7 +53,7 @@
           <factAlias>TipoSolicitud</factAlias>
           <expressionAlias>tipoSolicitud</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>241.0</columnWidth>
+          <columnWidth>467.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>TipoSolicitud</factAlias>
           <expressionAlias>grupo</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>241.0</columnWidth>
+          <columnWidth>467.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -301,7 +301,7 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Gerencia de Afiliación y Novedades</rawValue>
+            <rawValue class="string">Atención Integral y de Servicio al Ciudadano</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
