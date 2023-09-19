@@ -1392,6 +1392,7 @@
   </background>
   <settings>
     <type>RULE</type>
+    <ruleFlowGroup>tipoSolicitudGrupo</ruleFlowGroup>
     <skipFromBuild>false</skipFromBuild>
     <stateless>false</stateless>
   </settings>
