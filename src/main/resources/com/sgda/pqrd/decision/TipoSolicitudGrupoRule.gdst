@@ -16,7 +16,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString>pqrd-tipoSolicitud-rule</valueString>
+        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
