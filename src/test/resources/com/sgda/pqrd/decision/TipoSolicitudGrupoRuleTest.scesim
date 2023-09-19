@@ -1394,7 +1394,7 @@
     <type>RULE</type>
     <ruleFlowGroup>tipoSolicitudGrupo</ruleFlowGroup>
     <skipFromBuild>false</skipFromBuild>
-    <stateless>false</stateless>
+    <stateless>true</stateless>
   </settings>
   <imports>
     <imports>
