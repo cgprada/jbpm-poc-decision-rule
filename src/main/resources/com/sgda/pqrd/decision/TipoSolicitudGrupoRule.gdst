@@ -462,7 +462,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pago de Aportes ARL</valueString>
+        <valueString>Facturación y cobro Pólizas de Vida</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -495,39 +495,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Facturación y cobro Pólizas de Vida</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Gerencia de Recaudo y Cartera</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-    </list>
-    <list>
-      <value>
-        <valueNumeric class="int">13</valueNumeric>
-        <valueString></valueString>
-        <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Internet (página web, portal transaccional)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -540,7 +507,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">14</valueNumeric>
+        <valueNumeric class="int">13</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -573,7 +540,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">15</valueNumeric>
+        <valueNumeric class="int">14</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -606,7 +573,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">16</valueNumeric>
+        <valueNumeric class="int">15</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -639,7 +606,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">17</valueNumeric>
+        <valueNumeric class="int">16</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
@@ -672,6 +639,39 @@
     </list>
     <list>
       <value>
+        <valueNumeric class="int">17</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>tipoSolicitudGrupo</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Pago de Aportes ARL</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Gerencia de Recaudo y Cartera</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
         <valueNumeric class="int">18</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
@@ -693,7 +693,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pago de Reembolso</valueString>
+        <valueString>Pago de Incapacidad</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -726,7 +726,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Pago de Incapacidad</valueString>
+        <valueString>Pago de Reembolso</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
