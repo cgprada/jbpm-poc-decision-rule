@@ -13,20 +13,7 @@
     <width>150</width>
   </ruleNameColumn>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>154</width>
-      <attribute>ruleflow-group</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>TipoSolicitud</factType>
@@ -127,11 +114,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Actualización de datos en la afiliación</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -156,11 +138,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -193,11 +170,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Aporte de Pruebas Medicina Laboral radicado SAL-XXXXX</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -222,11 +194,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -259,11 +226,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Asesoría en SGSST</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -288,11 +250,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -325,11 +282,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Autorización médica</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -354,11 +306,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -391,11 +338,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Controversia</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -420,11 +362,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -457,11 +394,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Facturación y cobro Pólizas de Vida</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -486,11 +418,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -523,11 +450,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Modificaciones Pólizas de Vida</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -552,11 +474,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -589,11 +506,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Oficinas</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -618,11 +530,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -655,11 +562,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Pago de Aportes ARL</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -684,11 +586,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -721,11 +618,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Pago de Reembolso</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -750,11 +642,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -787,11 +674,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Reclamaciones Pólizas de Vida</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -816,11 +698,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -853,11 +730,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Sistema de audio respuesta (IVR)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -882,11 +754,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -919,11 +786,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>tipoSolicitudGrupo</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Suscripción de Pólizas de Vida</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -948,11 +810,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>tipoSolicitudGrupo</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
