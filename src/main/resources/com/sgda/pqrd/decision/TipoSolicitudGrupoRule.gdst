@@ -30,7 +30,7 @@
   <conditionPatterns>
     <Pattern52>
       <factType>TipoSolicitud</factType>
-      <boundName>f1</boundName>
+      <boundName>tipoSol</boundName>
       <isNegated>false</isNegated>
       <conditions>
         <condition-column52>
@@ -64,7 +64,7 @@
       <hideColumn>false</hideColumn>
       <width>379</width>
       <header>Grupo</header>
-      <boundName>f1</boundName>
+      <boundName>tipoSol</boundName>
       <factField>grupo</factField>
       <type>String</type>
       <update>false</update>
